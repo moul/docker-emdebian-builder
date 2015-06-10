@@ -145,3 +145,22 @@ I: Tidying up apt cache and list data.
 
 Multistrap system installed successfully in /chroot/.
 ```
+
+```console
+$ ls -la chroot
+total 8
+drwxr-xr-x  12 moul  staff  408 Jun 22  2012 .
+drwxr-xr-x  10 moul  staff  340 Jun 10 17:52 ..
+drwxr-xr-x   3 moul  staff  102 Jan  2  2013 bin
+drwxr-xr-x   2 moul  staff   68 Jun 10 17:48 dev
+drwxr-xr-x  14 moul  staff  476 Jan  2  2013 etc
+drwxr-xr-x   5 moul  staff  170 Jun 22  2012 lib
+lrwxr-xr-x   1 moul  staff    5 Jun 10 17:48 lib64 -> ./lib
+drwxr-xr-x   4 moul  staff  136 Dec 30  2012 sbin
+drwxr-xr-x   2 moul  staff   68 Jun 10  2012 selinux
+drwxr-xr-x   2 moul  staff   68 Jun 10 17:49 tmp
+drwxr-xr-x   6 moul  staff  204 Jun 22  2012 usr
+drwxr-xr-x   5 moul  staff  170 Mar 18  2013 var
+$ du -hs chroot
+ 17M	chroot
+```
