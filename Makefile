@@ -17,3 +17,10 @@ build:
 
 release: build
 	docker push moul/emdebian-builder
+
+
+clean:
+	rm -rf chroot
+
+
+re: clean run
