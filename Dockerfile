@@ -23,5 +23,6 @@ RUN apt-get -y install \
 
 
 COPY multistrap.conf /
-CMD multistrap -f /multistrap.conf
+COPY build.sh /
+CMD /build.sh
 VOLUME /chroot
