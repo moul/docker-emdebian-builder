@@ -1,4 +1,7 @@
 # docker-emdebian-builder
+
+[![GuardRails badge](https://badges.production.guardrails.io/moul/docker-emdebian-builder.svg)](https://www.guardrails.io)
+
 :whale: build emdebian images in Docker
 
 ```console
